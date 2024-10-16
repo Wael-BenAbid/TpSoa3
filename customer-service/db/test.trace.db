@@ -1,0 +1,13 @@
+2024-10-16 12:39:19.649727+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found (this database is empty); SQL statement:
+insert into customer (email,name,id) values (?,?,default) [42104-224]
+2024-10-16 12:40:28.427067+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found (this database is empty); SQL statement:
+insert into customer (email,name,id) values (?,?,default) [42104-224]
+2024-10-16 12:44:38.208623+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found (this database is empty); SQL statement:
+SELECT *FROM CUSTOMER [42104-224]
+2024-10-16 12:53:35.109848+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "SELECT [*]• FROM CUSTOMER"
+Syntax error in SQL statement "SELECT [*]• FROM CUSTOMER"; SQL statement:
+SELECT • FROM CUSTOMER [42000-224]
