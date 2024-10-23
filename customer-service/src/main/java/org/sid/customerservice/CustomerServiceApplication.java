@@ -19,7 +19,12 @@ public class CustomerServiceApplication {
             customerRepository.save(new Customer(null, "eni", "contact@eni.tn"));
             customerRepository.save(new Customer(null, "FST", "contact@fst.tn"));
             customerRepository.save(new Customer(null, "ENSI", "contact@ensi.tn"));
+
+            customerRepository.findAll().forEach(customer -> {
+                System.out.println(customer);
+            });
         };
+
     }
 
 }
